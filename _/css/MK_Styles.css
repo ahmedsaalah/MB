@@ -1,0 +1,667 @@
+@font-face {
+    font-family: GE SS;
+    src: url("<?php echo $this->config->base_url(); ?>_/fonts/stc_1.otf.otf") format("opentype"); 
+}
+@font-face {
+    font-family: GE SS TV;
+     src: url("<?php echo $this->config->base_url(); ?>_/fonts/GE_SS_TV_Bold.otf") format("opentype"); 
+}
+body{
+    background: #efefef;
+}
+header{
+    width: 100%;
+    height: 70px;
+    min-height: 70px;
+    background: #efefef;
+    border-bottom: 1px solid #dce0ec!important;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    filter: none;
+}
+header .container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+header .nav >li{
+    min-height: 70px;
+    min-width: 70px;
+}
+header .nav >li>a{
+    min-height: 70px;
+    min-width: 70px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 21px;
+    color: #131313;
+}
+header img{
+    height: 45px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+header .navbar-right li>a{
+    border-left:1px solid #dce0ec;
+}
+header .navbar-left li>a{
+    font-size: 20px;
+}
+header .navbar-left .dropdown>a{
+    padding: 0px;
+    padding-top: 12px;
+    padding-right: 5px;
+    padding-left:5px;
+}
+header .navbar-left .dropdown>a>img ,header .navbar-left li>a>p{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom:0px;
+}
+header .navbar-left li>a>p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+header .navbar-left .dropdown>a>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 45px;
+    margin-top: 0px; 
+}
+
+
+
+
+.DataSection {
+  position: relative;
+  min-height: 100%;
+  padding: 25px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+  font-family: GE SS;
+  
+ }
+
+  .DataSection .DataContainer {
+    background: #ffffff;
+    }
+
+    .DataSection .DataContainer .box-header {
+      padding-right: 25px;
+      }
+      .DataSection .DataContainer .box-header .boxHeaderRight {
+        float: Right;
+         }
+        .DataSection .DataContainer .box-header .boxHeaderRight h3 {
+          color: #2B303B;
+          font-family: GE SS TV;
+           }
+        .DataSection .DataContainer .box-header .boxHeaderRight a {
+          border-radius: 0px;
+          background: #0095ff;
+          color: #ffffff;
+          padding: 10px;
+          padding-bottom: 8px;
+          padding-top: 8px;
+          font-size: 13px;
+          text-decoration: none;
+          margin-bottom: 5px;
+          display: inline-block; }
+        .DataSection .DataContainer .box-header .boxHeaderRight a:hover {
+          background: #21252D;
+          color: #ffffff; }
+      .DataSection .DataContainer .box-header h3 {
+        margin: 0px; }
+      .DataSection .DataContainer .box-header .boxHeaderLeft {
+        float: left;
+        
+        }
+
+          .DataSection .DataContainer .box-header .boxHeaderLeft ul li {
+            display: inline-block;
+            }
+            .DataSection .DataContainer .box-header .boxHeaderLeft ul li a {
+              display: inline-block;
+              border-radius: 0px;
+              background: #0095ff;
+              color: #ffffff;
+              padding: 10px;
+              padding-bottom: 8px;
+              padding-top: 8px;
+              font-size: 13px;
+              text-decoration: none;
+              margin-bottom: 0px;
+              display: inline-block;
+              font-family: GE SS;
+              font-weight: 100; }
+            .DataSection .DataContainer .box-header .boxHeaderLeft ul li a:hover {
+              background: #21252D;
+              color: #ffffff; }
+            .DataSection .DataContainer .box-header .boxHeaderLeft ul li .dropdown-menu {
+              right: 0px;
+              left: auto;
+              padding: 8px;
+              width: auto;
+              margin-top: -5px;
+              }
+              .DataSection .DataContainer .box-header .boxHeaderLeft ul li .dropdown-menu .dropContain {
+                border: solid 1px rgba(230, 230, 230, 0.7) !important;
+                border-radius: 5px !important;
+                padding: 10px !important; }
+              .DataSection .DataContainer .box-header .boxHeaderLeft ul li .dropdown-menu li {
+                width: 100%;
+                background: none;
+                color: #21252D;
+                height: 30px;
+                }
+                .DataSection .DataContainer .box-header .boxHeaderLeft ul li .dropdown-menu li span {
+                  display: inline-block;
+                  margin-right: 10px; }
+                .DataSection .DataContainer .box-header .boxHeaderLeft ul li .dropdown-menu li p {
+                  display: inline-block; }
+              .DataSection .DataContainer .box-header .boxHeaderLeft ul li .dropdown-menu .iconup {
+                position: absolute;
+                top: 0;
+                right: 0px;
+                font-size: 23px;
+                margin-top: -16px;
+                margin-right: 10px;
+                color: #fff;
+                z-index: 5000; }
+              .DataSection .DataContainer .box-header .boxHeaderLeft ul li .dropdown-menu .shadow {
+                position: absolute;
+                top: -1px;
+                right: 0px;
+                font-size: 25px;
+                margin-top: -17px;
+                margin-right: 10px;
+                color: #e0e0e0; }
+            .DataSection .DataContainer .box-header .boxHeaderLeft ul li select {
+              display: inline-block;
+              height: 36px;
+              border: none;
+              width: auto;
+              background: #0095ff;
+              color: #ffffff;
+              border-right: 1px solid #ffffff;
+              border-left: 1px solid #ffffff; }
+            .DataSection .DataContainer .box-header .boxHeaderLeft ul li select:hover {
+              box-shadow: none;
+              background: #21252D;
+              border-top: none;
+              border-bottom: none; }
+            .DataSection .DataContainer .box-header .boxHeaderLeft ul li select:active {
+              box-shadow: none; }
+            .DataSection .DataContainer .box-header .boxHeaderLeft ul li .tooltip {
+              min-width: 112px; }
+      .DataSection .DataContainer .box-header hr {
+        margin-top: 10px;
+        margin-bottom: 10px; }
+    .DataSection .DataContainer .box-body {
+      padding-bottom: 10px;
+        direction: rtl;
+      }
+              .DataSection .DataContainer .box-body .table-responsive .table thead tr th {
+                padding: 10px !important;
+                font-weight: 100 !important;
+                border: 1px solid #d0d0d0 !important;
+                text-align: center;
+                min-width: 65px !important; }
+                .tbicons{
+                    width: 90px  !important;
+                }
+              .DataSection .DataContainer .box-body .table-responsive .table tbody tr td {
+                padding-top: 8px;
+                font-weight: 100 !important;
+                text-align: center;
+                }
+                
+                  .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .ToolsDropMenuItem {
+                    cursor: pointer;
+                     }
+                    .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .ToolsDropMenuItem span {
+                      display: inline-block;
+                      margin-right: 5px; }
+                    .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .ToolsDropMenuItem p {
+                      display: inline-block; }
+                  .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .dropdown-menu {
+                    position: absolute;
+                    left: 84%;
+                    padding: 0px;
+                    top: 28%;
+                    border-radius: 0px;
+                    }
+                    .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .dropdown-menu a {
+                      line-height: 18px;
+                      padding: 8px 16px;
+                       }
+                      .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .dropdown-menu a p {
+                        display: inline-block;
+                        margin-bottom: 0px; }
+                      .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .dropdown-menu a span {
+                        display: inline-block;
+                        margin-right: 10px; }
+                    .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .dropdown-menu a:hover {
+                      background: #eeeeee !important; }
+                    .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .dropdown-menu .iconup {
+                      position: absolute;
+                      top: 0;
+                      right: 0px;
+                      font-size: 23px;
+                      margin-top: -16px;
+                      margin-right: 10px;
+                      color: #fff;
+                      z-index: 5000; }
+                    .DataSection .DataContainer .box-body .table-responsive .table tbody tr td .ToolsDrop .dropdown-menu .shadow {
+                      position: absolute;
+                      top: -1px;
+                      right: 0px;
+                      font-size: 25px;
+                      margin-top: -17px;
+                      margin-right: 10px;
+                      color: #e0e0e0; }
+              .DataSection .DataContainer .box-body .table-responsive .table tbody tr .Tools-col {
+                width: 120px;
+                min-width: 120px;
+                }
+                .DataSection .DataContainer .box-body .table-responsive .table tbody tr .Tools-col .ToolsDrop2 {
+                  width: 100%;
+                  }
+                  .DataSection .DataContainer .box-body .table-responsive .table tbody tr .Tools-col .ToolsDrop2 a {
+                    cursor: pointer; }
+                  .DataSection .DataContainer .box-body .table-responsive .table tbody tr .Tools-col .ToolsDrop2 .ToolsDropMenuItem2 {
+                    width: 100%;
+                    }
+                    .DataSection .DataContainer .box-body .table-responsive .table tbody tr .Tools-col .ToolsDrop2 .ToolsDropMenuItem2 span {
+                      display: inline-block;
+                      margin-right: 5px; }
+                    .DataSection .DataContainer .box-body .table-responsive .table tbody tr .Tools-col .ToolsDrop2 .ToolsDropMenuItem2 p {
+                      display: inline-block; }
+                  .DataSection .DataContainer .box-body .table-responsive .table tbody tr .Tools-col .ToolsDrop2 .ToolsDiv {
+                    list-style: none;
+                    padding-left: 0px;
+                    border-top: 1px solid rgba(230, 230, 230, 0.7);
+                    padding-top: 10px;
+                    text-align: left;
+                    padding-left: 10px;
+                     }
+
+                        .DataSection .DataContainer .box-body .table-responsive .table tbody tr .Tools-col .ToolsDrop2 .ToolsDiv .ToolsDivItem a span {
+                          display: inline-block;
+                          margin-right: 5px; }
+                        .DataSection .DataContainer .box-body .table-responsive .table tbody tr .Tools-col .ToolsDrop2 .ToolsDiv .ToolsDivItem a p {
+                          display: inline-block; }
+
+      .DataSection .DataContainer .box-footer .footer-left {
+        float: left;
+        margin-left: 15px;
+        margin-top: 10px;
+        }
+
+      .DataSection .DataContainer .box-footer .footer-right {
+        float: right;
+        margin-right: 15px;
+         }
+        .DataSection .DataContainer .box-footer .footer-right .pagination {
+          margin: 0px !important;
+          float: right; }
+        .DataSection .DataContainer .box-footer .footer-right .btn {
+          border-radius: 0px; }
+        .DataSection .DataContainer .box-footer .footer-right .btn-info {
+          background: #0095ff;
+          color: #ffffff; }
+
+/*.DataSection*/
+
+
+
+.OverLayForm {
+  font-family: Droid Arabic Kufi !important;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.98);
+  z-index: 5000;
+  padding: 70px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  overflow: auto;
+  /*.OverLayFormHeader*/
+  /*.OverLayFormContent*/
+  /*.OverLayFormFooter*/ }
+  /* line 344, ../components/sass/_modules.scss */
+  .OverLayForm .OverLayFormHeader {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.7);
+    /*.OverLayFormHeaderLeft*/
+    /*.OverLayFormHeaderRight*/ }
+    /* line 347, ../components/sass/_modules.scss */
+    .OverLayForm .OverLayFormHeader .OverLayFormHeaderLeft {
+      display: inline-block;
+      float: left; }
+      /* line 350, ../components/sass/_modules.scss */
+      .OverLayForm .OverLayFormHeader .OverLayFormHeaderLeft span {
+        cursor: pointer;
+        margin-top: 10px; }
+    /* line 355, ../components/sass/_modules.scss */
+    .OverLayForm .OverLayFormHeader .OverLayFormHeaderRight {
+      display: inline-block;
+      float: Right;
+      /*span*/ }
+      /* line 358, ../components/sass/_modules.scss */
+      .OverLayForm .OverLayFormHeader .OverLayFormHeaderRight h2 {
+        margin-top: 0px; }
+      /* line 361, ../components/sass/_modules.scss */
+      .OverLayForm .OverLayFormHeader .OverLayFormHeaderRight span {
+        margin-top: 25px;
+        font-size: 18px;
+        cursor: pointer; }
+  /* line 368, ../components/sass/_modules.scss */
+  .OverLayForm .OverLayFormContent {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+    /*.FormSection*/ }
+    /* line 372, ../components/sass/_modules.scss */
+    .OverLayForm .OverLayFormContent .FormSection {
+      /*.SectionHeader*/
+      /*.SectionContent*/ }
+      /* line 374, ../components/sass/_modules.scss */
+      .OverLayForm .OverLayFormContent .FormSection .checkbox label {
+        line-height: 4;
+        padding-left: 0px; }
+      /* line 379, ../components/sass/_modules.scss */
+      .OverLayForm .OverLayFormContent .FormSection .SectionHeader {
+        margin-bottom: 15px; }
+        /* line 381, ../components/sass/_modules.scss */
+        .OverLayForm .OverLayFormContent .FormSection .SectionHeader button {
+          display: inline-block; }
+      /* line 385, ../components/sass/_modules.scss */
+      .OverLayForm .OverLayFormContent .FormSection .SectionContent {
+        /*.TableDataDivr*/
+        /*.form-group*/
+        /*.TotalData*/ }
+        /* line 386, ../components/sass/_modules.scss */
+        .OverLayForm .OverLayFormContent .FormSection .SectionContent .TableDataDiv {
+          min-width: 75%;
+          /*table*/ }
+          /* line 388, ../components/sass/_modules.scss */
+          .OverLayForm .OverLayFormContent .FormSection .SectionContent .TableDataDiv table {
+            margin-bottom: 5px; }
+        /* line 392, ../components/sass/_modules.scss */
+        .OverLayForm .OverLayFormContent .FormSection .SectionContent .form-group {
+          margin: 0px;
+          padding: 10px;
+          /*label*/
+          /*select*/
+          /*input*/
+          /*textarea*/ }
+          /* line 395, ../components/sass/_modules.scss */
+          .OverLayForm .OverLayFormContent .FormSection .SectionContent .form-group label {
+            font-weight: 100; }
+          /* line 398, ../components/sass/_modules.scss */
+          .OverLayForm .OverLayFormContent .FormSection .SectionContent .form-group select {
+            border: 1px solid rgba(230, 230, 230, 0.7);
+            border-radius: 0px;
+            padding: 10px;
+            min-height: 50px;
+            box-shadow: none;
+            background: none;
+            width: 50%; }
+          /* line 407, ../components/sass/_modules.scss */
+          .OverLayForm .OverLayFormContent .FormSection .SectionContent .form-group input {
+            border: 1px solid rgba(230, 230, 230, 0.7);
+            border-radius: 0px;
+            padding: 10px;
+            min-height: 50px;
+            box-shadow: none;
+            background: none;
+            width: 50%; }
+          /* line 416, ../components/sass/_modules.scss */
+          .OverLayForm .OverLayFormContent .FormSection .SectionContent .form-group textarea {
+            border: 1px solid rgba(230, 230, 230, 0.7);
+            border-radius: 0px;
+            padding: 10px;
+            min-height: 100px;
+            box-shadow: none;
+            background: none;
+            width: 100%;
+            max-width: 100%;
+            max-height: 100px;
+            min-width: 100%; }
+        /* line 429, ../components/sass/_modules.scss */
+        .OverLayForm .OverLayFormContent .FormSection .SectionContent .TotalData {
+          /*.TotalItem*/ }
+          /* line 430, ../components/sass/_modules.scss */
+          .OverLayForm .OverLayFormContent .FormSection .SectionContent .TotalData .TotalItem {
+            display: inline-block;
+            /*h4*/ }
+            /* line 432, ../components/sass/_modules.scss */
+            .OverLayForm .OverLayFormContent .FormSection .SectionContent .TotalData .TotalItem h4 {
+              display: inline-block;
+              margin-right: 5px; }
+  /* line 441, ../components/sass/_modules.scss */
+  .OverLayForm .OverLayFormFooter {
+    border-top: 1px solid rgba(230, 230, 230, 0.7);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*.OverLayFormFooterItem*/ }
+    /* line 446, ../components/sass/_modules.scss */
+    .OverLayForm .OverLayFormFooter .OverLayFormFooterItem button {
+      padding-right: 20px;
+      padding-left: 20px;
+      background: #2d3446;
+      color: #ffffff; }
+    /* line 452, ../components/sass/_modules.scss */
+    .OverLayForm .OverLayFormFooter .OverLayFormFooterItem button:hover {
+      background: #48b0f7; }
+
+/*.OverLayForm*/
+
+
+/* line 14, ../components/sass/_Layout.scss */
+.closed {
+  display: none; }
+
+/* line 17, ../components/sass/_Layout.scss */
+.show {
+  display: block; }
+
+/* line 20, ../components/sass/_Layout.scss */
+.left {
+  float: left; }
+
+/* line 23, ../components/sass/_Layout.scss */
+.right {
+  float: right; }
+
+
+.OverlayTabPanel {
+    padding: 15px;
+    padding-top: 25px;
+}
+
+.OverlayTabPanel .col-md-3 {
+    float: right !important;
+}
+
+.OverlayTabPanel .box-wider-text .box-header {
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.OverlayTabPanel .box-wider-text .box-header img{
+    width: 100%;
+    min-height: 250px;
+    object-fit: cover;
+}
+
+.OverlayTabPanel .box-wider-text .box-body h3{
+    padding-left: 0px;
+    margin-top: 0px;
+    color: #21252D;
+    border-bottom: solid 1px #eee;
+    padding-bottom: 15px;
+}
+
+.Data .DataItem p {
+    padding-left: 0px;
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 10px;
+    color: #2B303B !important;
+}
+
+.OverlayTabPanel .box-wider-text .box-footer{
+    padding: 0px;
+}
+
+.OverlayTabPanel .box-wider-text .box-footer .HeaderLeft{
+    float: left;
+}
+
+.OverlayTabPanel .box-wider-text .box-footer .HeaderLeft a ,.OverlayTabPanel .box-wider-text .box-footer .HeaderRight a{
+   font-size: 22px;
+   padding: 0px;
+   margin-left: 20px;
+   margin-top: 10px;
+   color: #21252D;
+}
+
+.OverlayTabPanel .box-wider-text .box-footer .HeaderRight h3 {
+    margin-left: 0px;
+    margin-right: 20px;
+    font-size: 15px;
+    float: right;
+}
+
+.OverlayTabPanel .box-wider-text .box-footer .HeaderLeft a :hover , .OverlayTabPanel .box-wider-text .box-footer .HeaderRight a :hover{
+   color: #2B303B;
+}
+
+
+.CustomModal {
+  font-family: Droid Arabic Kufi !important;
+  color: #21252D;
+  /*.modal-content*/ }
+  /* line 462, ../components/sass/_modules.scss */
+  .CustomModal .modal-dialog {
+    margin-top: 80px;
+    direction: rtl;
+    /*.modal-content*/ }
+    /* line 464, ../components/sass/_modules.scss */
+    .CustomModal .modal-dialog .modal-content {
+      background: #f3f3f3;
+      /*.modal-header*/
+      /*.modal-body*/
+      /*.modal-footer*/ }
+      /* line 466, ../components/sass/_modules.scss */
+      .CustomModal .modal-dialog .modal-content .modal-header {
+        border-bottom: none; }
+        /* line 468, ../components/sass/_modules.scss */
+        .CustomModal .modal-dialog .modal-content .modal-header .close {
+          float: left !important;
+          color: #21252D; }
+      /* line 473, ../components/sass/_modules.scss */
+      .CustomModal .modal-dialog .modal-content .modal-body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 25px;
+        padding-left: 25px;
+        /*h1*/
+        /*p*/ }
+        /* line 478, ../components/sass/_modules.scss */
+        .CustomModal .modal-dialog .modal-content .modal-body h1 {
+          margin-top: 5px;
+          color: #48b0f7;
+          font-weight: 100 !important; }
+        /* line 483, ../components/sass/_modules.scss */
+        .CustomModal .modal-dialog .modal-content .modal-body p {
+          color: #ffffff; }
+        /* line 486, ../components/sass/_modules.scss */
+        .CustomModal .modal-dialog .modal-content .modal-body label {
+          font-weight: 100 !important; }
+      /* line 490, ../components/sass/_modules.scss */
+      .CustomModal .modal-dialog .modal-content .modal-footer {
+        border: none;
+        padding-top: 0px; }
+        /* line 493, ../components/sass/_modules.scss */
+        .CustomModal .modal-dialog .modal-content .modal-footer button {
+          color: #ffffff;
+          background: #48b0f7; }
+
+/*.CustomModal*/
+
+.modal
+{
+  z-index: 5000;
+}
+a .hoverEffect{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  background: #131313;
+  opacity: 0.2;
+}
+
+.FormSection{
+  direction: rtl;
+}
+.textDetailsArea{
+      width: 100%;
+    min-height: 200px !important;
+    max-height: 200px !important;
+}
+
+.MainMenuDiv{
+  margin-top: 5%;
+}
+.MainMenuDiv img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 45px;
+}
+.MainMenuDiv ul{
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding: 0px;
+}
+.MainMenuDiv ul li {
+  padding: 15px;
+}
+.MainMenuDiv ul li a{
+  font-size: 25px;
+  color:#131313;
+}
+.MainMenuDiv ul li a:hover , .MainMenuDiv ul li a:focus  {
+  text-decoration: none;
+  color:#945300;
+}
+.OverLayFormHeaderCustome .OverLayFormHeaderRight span{    
+    font-size: 25px;
+    cursor: pointer;
+  }
+.CustomFormDiv select , .CustomFormDiv input{
+    width: 100% !important;
+}
+.rtlCLS{
+  direction: rtl;
+}
+
+.ltrCLS{
+  direction: ltr;
+}
+.right{
+  float: right;
+}
